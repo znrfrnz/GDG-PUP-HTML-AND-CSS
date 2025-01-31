@@ -1,25 +1,109 @@
-/* body */
+/*Style the Body */
+body {
+   font-family: 'Source Sans 3', sans-serif;
+   background-color: #d7d4d49c;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: 0;
+}
 
-/* profile-card */
+/* Style the Profile Card */
+.profile-card {
+   width: 350px;
+   background-color: #ffffff;
+   border-radius: 10px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+   text-align: center;
+   overflow: hidden;
+}
 
-/* cover-photo img */
+/* Style the Cover Photo */
+.cover-photo img {
+   width: 100%;
+   height: 150px;
+   object-fit: cover;
+}
 
-/* profile-content */
+/* Style the Profile Content */
+.profile-content {
+   padding: 20px;
+   position: relative;
+   margin-top: -75px;
+}
 
-/* profile-picture */
+/* Style the Profile Picture */
+.profile-picture {
+   width: 150px;
+   height: 150px;
+   border: 3px solid #71c9ff;
+   border-radius: 50%;
+   background-color: #ffffff;
+   margin: 0 auto;
+   overflow: hidden;
+   position: relative;
+   z-index: 2;
+}
 
-/* profile-info h2*/
+/* Style the Profile Picture Image */
+.profile-picture img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
 
-/* profile-info title*/
+/* Style Profile Info */
+.profile-info h2 {
+   font-size: 30px;
+   font-weight: bold;
+   margin: 10px 0 5px;
+   color: #333333;
+}
 
-/* profile-info bio*/
+.profile-info .title {
+   font-size: 18px;
+   color: #555555;
+   margin: 5px 0;
+}
 
-/* title */
+.profile-info .bio {
+   font-size: 18px;
+   color: #777777;
+   margin-top: 18px;
+}
 
-/* bio */
+/*Social Links */
+.social {
+   margin: 20px 0;
+}
 
-/* social ul */
+/* Social List */
+.social ul {
+   display: flex;
+   justify-content: center;
+   padding: 0;
+   margin: 0;
+   list-style: none;
+   gap: 15px;
+}
 
-/* social a */
+/*Social Items */
+.social li {
+   display: inline-block;
+}
 
-/* social img */
+/* Social Links */
+.social a {
+   display: inline-block;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   overflow: hidden;
+}
+
+/* Style Social Images */
+.social img {
+   width: 100%;
+   height: 100%;
+}

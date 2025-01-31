@@ -1,0 +1,31 @@
+.button {
+   position: absolute;
+   left: 50%;
+   right: 50%;
+   top: 50%;
+}
+
+.subscribeButton {
+   background-color: #FF0000;
+   color: #FFFFFF;
+   font-family: 'Roboto', sans-serif;
+   font-size: 14px;
+   font-weight: 500;
+   text-transform: uppercase;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+   border: none;
+   border-radius: 3px;
+   cursor: pointer;
+   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+   transition: all 0.2 ease-in-out;
+   outline: none;
+}
+
+.subscribeButton:hover {
+   background-color: #CC0000;
+   box-shadow: 0 4px 6px rgba(0 ,0, 0, 0.2);
+   transform: scale(1.05)
+}

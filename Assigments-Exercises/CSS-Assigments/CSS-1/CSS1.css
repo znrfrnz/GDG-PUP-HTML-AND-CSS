@@ -1,0 +1,16 @@
+
+body {
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+   color: #1877F2;
+   font-size: 50px;
+}
+
+p {
+   font-size: 30px;
+   font-style: italic;
+   color:gray;
+}
